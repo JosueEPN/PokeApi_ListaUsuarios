@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Enlace api</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="Titulo">
+			<img class="Logo" src="image/LogoPK.png" />
+		</div>
+
+		<div id="Listarpokemon">
+			<article>
+				<div id="pok-1">
+					<img />
+					<ol></ol>
+					<a href="#"> <p class="lead"></p> </a>
+				</div>
+			</article>
+
+			<article>
+				<div>
+					<button type="submit" onclick="btnSeleccionar()">
+						Selecionar
+					</button>
+
+					<p class="lead">VS</p>
+				</div>
+			</article>
+
+			<article>
+				<div id="pok-2">
+					<img />
+					<ol></ol>
+					<a href="#"> <p class="lead"></p> </a>
+				</div>
+			</article>
+		</div>
+
+		<div class="Content2"><h1>Lista de Usuarios</h1></div>
+
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>NAME</th>
+						<th>EMAIL</th>
+					</tr>
+				</thead>
+
+				<tbody id="data"></tbody>
+			</table>
+		</div>
+
+		<script src="./Datospokemon.js"></script>
+		<script src="./Datosusuario.js"></script>
+	</body>
+</html>
