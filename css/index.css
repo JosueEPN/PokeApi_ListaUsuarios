@@ -1,5 +1,6 @@
 body {
 	background: #d9eeff;
+	
 }
 
 .Titulo {
@@ -20,4 +21,17 @@ div#Listarpokemon {
 }
 .Logo {
 	max-height: 150px;
+}
+.title{
+	text-align: center;
+}
+
+.alto {
+    @media (min-width:992px) {
+        height: 100vh;
+    }
+
+}
+.row{
+	font-family: 'Signika Negative', sans-serif;
 }
